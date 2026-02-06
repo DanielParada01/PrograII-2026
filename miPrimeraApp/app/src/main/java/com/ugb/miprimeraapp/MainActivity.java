@@ -17,9 +17,10 @@ import androidx.core.view.WindowInsetsCompat;
 Tarea para viernes 06/02/2026 individual.
 Factorial
 Porcentaje
-Exponenciacion
+Exponenciacionn
 Raiz
 * */
+//probando primer commit.
 public class MainActivity extends AppCompatActivity {
     TextView tempVal;
     Button btn;
