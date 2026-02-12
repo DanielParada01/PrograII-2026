@@ -4,6 +4,10 @@
         <item>Suma</item>
         <item>Resta</item>
         <item>Multiplicacion</item>
-        <item>Division</item>
+        <item>Divicion</item>
+        <item>Porcentaje</item>
+        <item>Factorial</item>
+        <item>Exponenciacion</item>
+        <item>Raiz Cuadrada</item>
     </string-array>
 </resources>

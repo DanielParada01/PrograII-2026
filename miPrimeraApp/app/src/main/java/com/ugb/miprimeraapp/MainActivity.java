@@ -47,15 +47,39 @@ public class MainActivity extends AppCompatActivity {
             case 0: //suma
                 respuesta = num1 + num2;
                 break;
+
             case 1: //Resta
                 respuesta = num1 - num2;
                 break;
+
             case 2: //Multiplicacion
                 respuesta = num1 * num2;
                 break;
+
             case 3: //division
                 respuesta = num1 / num2;
                 break;
+
+            case 4: // Porcentaje
+                respuesta = (num1 * num2) / 100;
+                break;
+
+            case 5: // Factorial
+                long fact = 1;
+                for(int i = 1; i <= num1; i++){
+                    fact *= i;
+                }
+                respuesta = fact;
+                break;
+
+            case 6: // Exponenciacion
+                respuesta = Math.pow(num1, num2);
+                break;
+
+            case 7: // Raiz cuadrada
+                respuesta = Math.sqrt(num1);
+                break;
+
         }
         tempVal = findViewById(R.id.lblRespuesta);
         tempVal.setText("Respuesta: "+ respuesta);
