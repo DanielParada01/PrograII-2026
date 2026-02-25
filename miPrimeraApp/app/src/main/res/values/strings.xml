@@ -1,13 +1,3 @@
 <resources>
     <string name="app_name">Calculadora Basica</string>
-    <string-array name="opciones">
-        <item>Suma</item>
-        <item>Resta</item>
-        <item>Multiplicacion</item>
-        <item>Divicion</item>
-        <item>Porcentaje</item>
-        <item>Factorial</item>
-        <item>Exponenciacion</item>
-        <item>Raiz Cuadrada</item>
-    </string-array>
 </resources>
