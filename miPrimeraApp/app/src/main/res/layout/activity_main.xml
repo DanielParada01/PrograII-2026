@@ -75,13 +75,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 
-                    <EditText
-                        android:id="@+id/txtMonedasA"
-                        android:layout_marginLeft="70dp"
-                        android:layout_marginRight="70dp"
-                        android:layout_marginTop="180dp"
-                        android:hint="Inserte la cantidad"
-                        android:layout_width="match_parent"
+                   <TextView
+                       android:id="@+id/lblRespuesta"
+                       android:layout_width="wrap_content"
+                       android:text="Respuesta = "
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="200dp"
+                       android:layout_marginLeft="30dp"/>
+                    <Button
+                        android:id="@+id/btnConvertir"
+                        android:text="Convertir"
+                        android:layout_marginTop="250dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </RelativeLayout>
 
